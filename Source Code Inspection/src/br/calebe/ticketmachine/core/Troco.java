@@ -10,7 +10,7 @@ class Troco {
 
     protected PapelMoeda[] papeisMoeda;
 
-    public Troco(int valor) {
+    public Troco(int valor, int quantidade) {
         papeisMoeda = new PapelMoeda[6];
         int count = 0;
         while (valor % 100 != 0) {
