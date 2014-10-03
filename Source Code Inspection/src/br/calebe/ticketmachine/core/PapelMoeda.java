@@ -1,15 +1,16 @@
 package br.calebe.ticketmachine.core;
 
 /**
- *
- * @author Calebe de Paula Bianchini
+ * CASSIO NAGLE CALLEGARI 31326773
+ * LUIZ GUILHERME MARGHERITO PAES DE ALMEIDA 31339913
+ * 
  */
 public class PapelMoeda {
 
-    private int valor;
-    private int quantidade;
+    public double valor;
+    public int quantidade;
 
-    public PapelMoeda(int valor, int quantidade) {
+    public PapelMoeda(double valor, int quantidade) {
         this.valor = valor;
         this.quantidade = quantidade;
     }
@@ -21,14 +22,4 @@ public class PapelMoeda {
     public int getQuantidade() {
         return quantidade;
     }
-
-    public void setValor(int valor) {
-        this.valor = valor;
-    }
-
-    public void setQuantidade(int quantidade) {
-        this.quantidade = quantidade;
-    }
-    
-    
 }
